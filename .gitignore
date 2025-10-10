@@ -1,0 +1,31 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Dependency / package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Large installers and archives
+*.exe
+*.msi
+*.zip
+*.tar.gz
+miniconda*.exe
+
+# Model files (optional — keep these out of repo if large)
+# model/*.h5
