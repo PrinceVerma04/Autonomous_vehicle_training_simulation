@@ -95,3 +95,32 @@ Expected behavior:
 
 - Preprocessing function used in `drive.py` (img_preprocess) must match training preprocessing exactly — otherwise steering predictions will be wrong.
 - The script loads the model with `compile=False` and then recompiles with Adam and MSE — this prevents some compatibility issues.
+
+## 7 — License & credits
+
+Keep or add a license as you prefer. This repository contains code built around a standard NVIDIA-style driving CNN and integration code for the Udacity simulator.
+
+---
+
+If you want, I can also:
+- Add a sample GitHub Actions workflow to run a quick lint/test.
+- Create a small example `model_dummy.h5` that returns a fixed steering angle so you can test simulator connectivity without your trained model.
+
+If you'd like either, tell me which and I will add it.
+## Simulation result video
+
+I have uploaded a recording of the simulator run to this repository as `simulation.mp4`.
+
+- Preview on GitHub: GitHub will render an embedded video player for `simulation.mp4` when you view the file in the repository.
+- Local playback (PowerShell example):
+
+```powershell
+# On Windows you can use the default video player
+Start-Process .\simulation.mp4
+# Or use VLC (if installed)
+"C:\Program Files\VideoLAN\VLC\vlc.exe" .\simulation.mp4
+```
+
+Caption: "Autonomous driving run — Lake Track — NVIDIA-style CNN model (recorded output)."
+
+# Autonomous_vehicle_training_simulation
