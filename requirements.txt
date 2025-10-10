@@ -1,0 +1,23 @@
+# Core dependencies for TensorFlow 2.11 with Python 3.7
+tensorflow==2.11.0
+keras==2.11.0
+
+# Image processing
+opencv-contrib-python==4.8.1.78
+Pillow==9.5.0
+
+# Scientific computing
+numpy==1.21.6
+
+# Data handling
+pandas==1.3.5
+scikit-learn==1.0.2
+
+# Server dependencies (compatible versions)
+python-socketio==4.6.1
+python-engineio==3.13.2
+Flask==2.2.5
+eventlet==0.33.3
+
+# Utilities
+h5py==3.8.0
