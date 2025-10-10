@@ -1,4 +1,6 @@
 # Autonomous Vehicle Training Simulation
+<img width="637" height="507" alt="image" src="https://github.com/user-attachments/assets/93c32b91-6817-4fc1-b310-f6e679089820" />
+
 
 ## Project overview
 
