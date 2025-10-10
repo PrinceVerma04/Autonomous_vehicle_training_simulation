@@ -1,14 +1,12 @@
 # Autonomous Vehicle Training Simulation
 
-Professional self-contained README for the repository.
-
 ## Project overview
 
 This repository contains a small server application that uses a trained NVIDIA-style convolutional neural network to drive the Udacity Self-Driving Car Simulator in autonomous mode. The server receives images and telemetry from the simulator, runs the model to predict steering angles, and sends steering/throttle commands back to the simulator.
 
 Important: the trained model weights (.h5) are not included in this repository. See "Model weights" below for instructions to obtain or repair the model file.
 
-## Repository tree (one-line, tree-like)
+## Repository 
 
 ```
 Autonomous_vehicle_training_simulation/
