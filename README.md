@@ -115,3 +115,4 @@ Start-Process .\simulation.mp4
 Caption: "Autonomous driving run — Lake Track — NVIDIA-style CNN model (recorded output)."
 
 # Autonomous_vehicle_training_simulation
+For this simulation after training the CNN model there is one file by name of Simulation.mp4.
