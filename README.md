@@ -11,6 +11,8 @@
 
 This repository contains a small server application that uses a trained NVIDIA-style convolutional neural network to drive the Udacity Self-Driving Car Simulator in autonomous mode. The server receives images and telemetry from the simulator, runs the model to predict steering angles, and sends steering/throttle commands back to the simulator.
 
+A complete implementation (training, preprocessing, and model-fix steps) is included in the Jupyter notebook `self_driving_car.ipynb` in the repository root — use this notebook to reproduce training, convert model files, and inspect sample outputs.
+
 Important: the trained model weights (.h5) are not included in this repository. See "Model weights" below for instructions to obtain or repair the model file.
 
 ## Repository 
@@ -20,6 +22,7 @@ Autonomous_vehicle_training_simulation/
 ├─ drive.py                # Main server script (runs the model and socket server)
 ├─ requirements.txt        # Python dependencies
 ├─ README.md               # This file
+├─ self_driving_car.ipynb  # Complete implementation and training notebook
 └─ model/
    ├─ model.h5             # (EXPECTED) trained model file - removed from repo
    ├─ model_fixed.h5       # (OPTIONAL) fixed/converted model produced from Colab
