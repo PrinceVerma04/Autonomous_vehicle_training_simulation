@@ -24,7 +24,7 @@ Autonomous_vehicle_training_simulation/
 ├─ README.md               # This file
 ├─ self_driving_car.ipynb  # Complete implementation and training notebook
 └─ model/
-   ├─ model.h5             # (EXPECTED) trained model file - removed from repo
+   ├─ model.h5             # (EXPECTED) trained model file 
    ├─ model_fixed.h5       # (OPTIONAL) fixed/converted model produced from Colab
    └─ model.keras          # alternate Keras model format
 ```
