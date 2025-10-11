@@ -4,6 +4,7 @@
 # Model Training Architecture
 <img width="1180" height="567" alt="image" src="https://github.com/user-attachments/assets/ca91fa78-1ead-40c9-9914-107829f642bb" />
 
+``` This was the implementation of Paper https://arxiv.org/pdf/1604.07316 End to End Learning for Self-Driving Cars by NVIDIA in 2016. After Training the CNN model they implemented it on DRIVE PX hardware to test the autonomous vehicle on Real world senerio.```
 
 
 ## Project overview
